@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function Counter() {
   const [num, setNum] = useState(0);
-  // use state hook
 
   function changeNum(int) {
     if (typeof int !== "number" || num + int < 0) return;
